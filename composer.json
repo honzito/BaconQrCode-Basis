@@ -1,18 +1,21 @@
 {
-    "name": "bacon/bacon-qr-code",
-    "description": "BaconQrCode is a QR code generator for PHP.",
+    "name": "honzito/bacon-qr-code-basis",
+    "description": "QR Code Generator for PHP - BaconQrCode cleaned to basic QRCode generator library with minimum requirements.",
     "license" : "BSD-2-Clause",
-    "homepage": "https://github.com/Bacon/BaconQrCode",
+    "homepage": "https://github.com/honzito/BaconQrCode-Basis",
     "require": {
         "php": "^8.0",
         "ext-iconv": "*",
         "dasprid/enum": "^1.0.3",
         "ext-gd": "*"
     },
-    "suggest": {
-        "ext-imagick": "to generate QR code images"
-    },
     "authors": [
+        {
+            "name": "Honza Malík",
+            "email": "honzito@ecn.cz",
+            "homepage": "https://ecnstudio.cz/",
+            "role": "Developer"
+        },
         {
             "name": "Ben Scholzen 'DASPRiD'",
             "email": "mail@dasprids.de",
